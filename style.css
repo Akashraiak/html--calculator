@@ -1,0 +1,20 @@
+button{
+    width: 90;
+    height:  90;
+    border: solid ;
+    font-size: 25;
+    
+}
+ .textinput {
+    width: 340;
+    height:  50;
+    font-size: 25;
+    color:#acb5af;
+    border: solid;
+ }
+
+ .main {
+    position: absolute;
+    border: solid 4px;
+    background: linear-gradient(yellow,pink);
+ }

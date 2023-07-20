@@ -1,0 +1,50 @@
+<html>
+<head>
+<script type="text/javascript" src="./script.js">
+</script>
+<link rel="stylesheet"  href="./style.css">
+</head>
+<body>
+    <div class=main>
+        <h1>HTML CALCULATOR</h1>
+        <form name="form">
+            <input name="textinput" class="textinput"/>
+        </form>
+        <table>
+            <tr>
+                <td><button oneclick="clear()">Clr</button></td>
+                <td><button oneclick="back()">DEL</button></td>
+                <td><button oneclick="insert('*')">*</button></td>
+                <td><button oneclick="insert('/')">/</button></td>
+
+            </tr>
+            <tr>
+                <td><button oneclick="insert(1)">1</button></td>
+                <td><button oneclick="insert(2)">2</button></td>
+                <td><button oneclick="insert(3)">3</button></td>
+                <td><button oneclick="insert('-')">-</button></td>
+
+            </tr>
+            <tr>
+                <td><button oneclick="insert(4)">4</button></td>
+                <td><button oneclick="insert(5)">5</button></td>
+                <td><button oneclick="insert(6)">6</button></td>
+                <td><button oneclick="insert('+')">+</button></td>
+
+            </tr>
+            <tr>
+                <td><button oneclick="insert(7)">7</button></td>
+                <td><button oneclick="insert(8)">8</button></td>
+                <td><button oneclick="insert(9)">9</button></td>
+                <td rowspan=2><button style="height: 170" oneclick="calculate()">=</button></td>
+               
+            </tr>
+            <tr>
+                <td colspan=2><button style="width: 149" oneclick="insert(0)">0</button></td>         
+                <td><button oneclick="insert('.')">.</button></td>  
+             </tr>
+
+        </table>
+    </div>
+</body>
+</html>
